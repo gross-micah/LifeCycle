@@ -33,7 +33,12 @@ class ViewController: UIViewController {
 	
 	override func viewWillDisappear(_ animated: Bool) {
 		super.viewWillDisappear(animated)
-		
+		print("ViewController - View Will Disappear")
+	}
+	
+	override func viewDidDisappear(_ animated: Bool) {
+		super.viewDidDisappear(animated)
+		print("ViewController - View Did Disappear")
 	}
 }
 
